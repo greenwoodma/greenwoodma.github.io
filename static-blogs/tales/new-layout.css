@@ -313,7 +313,7 @@ a.noimage
 	background: none !important;
 }
 
-a[href ^= 'http://www.blogger.com'], a[href *= 'mark/blog'], a[href ^= 'javascript'], a[href = '#'], a[href ^= 'http://englishcoffeedrinker.blogspot.']
+a[href *= 'www.blogger.com'], a[href *= 'mark/blog'], a[href ^= 'javascript'], a[href = '#'], a[href *= 'englishcoffeedrinker.blogspot.']
 {
 	padding-right: 0px;
 	background: none;
@@ -418,7 +418,8 @@ img.film
 }
 
 .blogComments
-{        margin: 0px 15px 0px 0px;
+{
+        margin: 0px 15px 0px 0px;
 	font-size: 90%;
 }
 
