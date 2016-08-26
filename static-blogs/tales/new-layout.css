@@ -1,0 +1,529 @@
+html, body
+{
+	height: 100%;
+}
+
+#navbar-iframe
+{
+	display:none!important;
+}
+
+body
+{
+	font-family: Arial, sans-serif;
+	background: lightgrey;
+	text-align: center;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	padding:0px;
+	margin:0px;
+}
+
+a
+{
+	color:#882d00;
+	outline: none;
+}
+
+a:hover
+{
+	color:#E0AD12;	
+}
+
+* html div#content
+{
+	height: 100%;
+}
+
+/* http://www.dave-woods.co.uk/?p=170 */
+#footer {
+	width: 980px;
+	clear: both;
+	height: 33px;
+	background: #882D00;
+	color: white;
+	text-align:center;
+	margin: -33px auto 0 auto;
+	position: relative;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+* html #footer
+{
+	margin-top: -33px;	
+}
+
+#clearfooter
+{
+	display: block;
+	height: 43px;
+	clear: both;
+}
+
+h1
+{
+	text-align: left;
+	margin-bottom: 5px;
+	font-size: 32px;
+	margin-top: 6px;
+	letter-spacing: -2px;
+}
+
+h2
+{
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+/* http://www.alistapart.com/articles/multicolumnlayouts */
+div#content
+{
+	margin: 0 auto;
+	position: relative;
+	width: 980px;
+	text-align: justify;
+	min-height: 100%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-color: #F6F6F6;
+}
+
+div#wrapper
+{
+  overflow:hidden;
+  padding-left:150px;
+}
+
+div#sidebar
+{
+	width: 134px;
+	padding: 0px 8px;
+	float: left;
+	left: -150px;
+	position:relative;
+	text-align: left;
+}
+
+div#sidebar h6
+{
+	font-size: 140%;
+	color: #D89414;
+	padding-top: 15px;
+}
+
+div#sidebar ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 95%;
+}
+
+div#posts
+{
+	width: 100%;
+	border-left: 150px;
+	margin-left: -150px;	
+	float: right;
+}
+
+div#tags
+{
+	margin-top: 20px;	
+}
+
+img
+{
+	border: none;
+	vertical-align: middle;
+}
+
+div#banner
+{
+	overflow: hidden;
+	border-top: 10px solid white;
+	margin-bottom: 10px;
+	font-size: 16px;
+	background: white repeat-x bottom;
+	background-image: url(overlap.jpg);
+	padding: 0px 8px 14px 8px;
+	height: 100px;
+}
+
+#search form
+{
+	margin: 0;
+	padding: 0;
+}
+
+div#search
+{
+	padding: 0px;
+	top: 8px;
+	float: right;
+	color: white;
+	width: 269px;
+	position: relative;
+}
+
+
+#search .left
+{
+	position: absolute;
+	left: 0;
+	width: 21px;
+	height: 33px;
+	background: transparent url(search_left.jpg) no-repeat;
+}
+
+/* the height was set to 33px but had to remove it otherwise FF 3.6 gets confused for some unknown reason */
+#search input#text
+{
+	position: absolute;
+	left: 21px;
+	margin: 0;
+	width: 158px;
+	border: 0 none;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	padding: 6px 0 6px 0;
+	background: transparent url(search_repeat.jpg) repeat-x;
+}
+
+#search .button
+{
+	width: 90px;
+	height: 30px;
+	cursor: pointer;
+	background: white url(search_right.jpg) no-repeat;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+	right: 0;
+	position: absolute;
+	padding-top: 8px;
+}
+
+#banner a
+{
+	color: black;
+	text-decoration: none;
+}
+
+#banner a:hover
+{
+	color: black;
+	text-decoration: none;	
+}
+
+a img
+{
+	padding-right: 2px;
+}
+
+#banner ul, #footer ul
+{
+	margin: 0;
+	padding: 0;	
+}
+
+#banner li
+{
+	list-style: none;
+	padding: 8px 8px;
+	float: left;
+}
+
+#footer li
+{
+	list-style: none;
+	padding: 0;
+	float: left;
+	height: 23px;
+	padding: 5px;	
+}
+
+#main-menu
+{
+	float: left;
+}
+
+#footer-main-menu
+{
+	float: left;
+}
+#sub-menu
+{
+	float: right;	
+}
+
+#footer-sub-menu
+{
+	float: right;	
+	height: 23px;
+	vertical-align: middle;
+	padding: 10px 5px 0px 5px;
+}
+
+#footer a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#footer a:hover
+{
+	text-decoration: underline;
+	color: #F5DEB3;
+}
+
+p
+{
+	margin: 8px 0px;
+}
+
+/** Copied from old layout **/
+
+img.photo
+{
+	border: 1px solid gray;
+	padding: 10px;
+	background: white;
+}
+
+img.slideshow
+{
+	padding: 3px;
+}
+
+a[href]
+{
+	padding-right: 18px;
+	background: transparent url(external.gif) no-repeat right;
+}
+
+a.noimage
+{
+	padding-right: 0px !important;
+	background: none !important;
+}
+
+a[href ^= 'http://www.blogger.com'], a[href *= 'mark/blog'], a[href ^= 'javascript'], a[href = '#'], a[href ^= 'http://englishcoffeedrinker.blogspot.']
+{
+	padding-right: 0px;
+	background: none;
+}		
+
+a[href $= '.zip']
+{
+	padding-right: 20px;
+	background: transparent url(zip.png) no-repeat right;
+}
+
+a[href $= '.pdf']
+{
+	padding-right: 20px;
+	background: transparent url(pdf.png) no-repeat right;
+}
+
+a[href $= '.pub']
+{
+	padding-right: 20px;
+	background: transparent url(office.png) no-repeat right;
+}
+
+a[href $= '.mov']
+{
+	padding-right: 20px;
+	background: transparent url(quicktime.gif) no-repeat right;
+}
+
+a[href $= '.kmz']
+{
+	padding-right: 20px;
+	background: transparent url(google_earth.png) no-repeat right;
+}
+
+a[href $= '.ppt']
+{
+	padding-right: 20px;
+	background: transparent url(ppt.png) no-repeat right;
+}
+
+
+a[href ^= 'http://www.amazon']
+{
+	padding-right: 20px;
+	background: transparent url(amazon.gif) no-repeat right;
+}
+
+a[href ^= 'http://en.wikipedia.org/']
+{
+	padding-right: 20px;
+	background: transparent url(wikipedia.png) no-repeat right;
+}
+
+a[href *= 'itunes.apple.com']
+{
+	padding-right: 18px;
+	background: transparent url(itunes.png) no-repeat right;
+}
+
+a[href ^= 'http://whispersfromthehedgerow.blogspot.com/']
+{
+	padding-right: 20px;
+	background: transparent url(whispers.png) no-repeat right;
+}
+
+a[href *= '/comment.g']
+{
+	padding-right: 0px;
+	padding-left: 20px;
+	background: transparent url(comment.png) no-repeat left;
+}
+
+img.cover
+{
+	border: 1px solid black;
+	width: 100px;
+	float: left;
+	padding-right: 0px;
+	background: none;
+}
+
+img.film
+{
+	padding: 7px 0px;
+	background: url('film.gif') repeat;
+	margin: 5px;
+	height: 91px;
+}
+
+.blogPost
+{
+	margin:0px 15px 30px 0px;
+	font-size:100%;
+	text-align:justify;
+}
+
+.blogPost strong
+{
+	color:#000000;
+	font-weight:bold;
+}
+
+.blogComments
+{        margin: 0px 15px 0px 0px;
+	font-size: 90%;
+}
+
+.blogComment
+{
+	margin-top: 10px;
+}
+
+h3
+{
+	margin:10px 0px 0px 0px;
+	color:#777777;
+	font-size:105%;
+}
+
+h2
+{
+	color:#9E5205;
+	font-weight:bold;
+	font-family:Verdana,Sans-Serif;
+	letter-spacing:-1px;
+}
+
+h2 a
+{
+	text-decoration: none;
+}
+
+.byline
+{
+	padding:0px;
+	margin:0px;
+	color:#444444;
+	font-size:90%;
+}
+
+.blogger-labels
+{
+	color:#444444;
+	padding: 0px;
+	padding: 5px 0px;
+	margin: 0px;
+	font-size: 90%;
+}
+
+.blogger-labels a
+{
+	text-decoration: none;
+}
+
+.byline a
+{
+	border:none;
+	color:#d89414;
+	text-decoration:none;
+}
+
+.byline a:hover
+{
+	text-decoration:underline;
+}
+
+#sidebar ul a
+{
+	padding:2px;
+	margin:1px;
+	width:100%;
+	border:none;
+	color:#999999;
+	text-decoration:none;
+}
+
+#sidebar ul a:link
+{
+	color:#999999;
+}
+
+#sidebar ul a:visited
+{
+	color:#999999;
+}
+
+#sidebar ul a:active
+{
+	color:#ff0000;
+}
+
+#sidebar ul a:hover
+{
+	color:#DE7008;
+	text-decoration:none;
+}
+td.comment-time
+{
+	font-size: 13px;
+	width: 150px;
+	padding-top: 25px;
+}
+
+td.comment-author
+{
+	padding-top: 25px;
+}
+
+td.comment-body
+{
+	font-size: 13px;
+}
